@@ -14,7 +14,14 @@ My name is Kseniia. My goal in RSSchool is to learn the basic skills of working 
 * C #
 
 ## Code example:
-```function multiply(a, b){
+```
+function multiply(a, b){
   return a * b;
 }
 ```
+## Education:
+* _Bachelor's degree_: **TPU** 
+* _Master's degree_: **ITMO**
+
+## English level: 
+B1: Intermediate
