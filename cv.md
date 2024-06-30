@@ -4,3 +4,8 @@
 
 ##About me My goal is to learn the basic skills of working with web layout to replenish my resume.
 
+##Code example:
+```function multiply(a, b){
+  return a * b;
+}
+```
