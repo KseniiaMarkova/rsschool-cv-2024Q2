@@ -1,4 +1,137 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
+html{
+    scroll-behavior: smooth;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family: "Baskervville SC", serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: #7D6D59;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+span{
+    font-family: "Roboto", serif;
+    color: #33413A;
+    text-decoration: none;
+}
+header, footer{
+    background-color: #BAAC9A;
+}
+.container{
+    max-width: 1440px;
+    margin: 0 auto;
+    min-height: 50px;
+}
+.nav-list{
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.nav-link{
+    color: #fff;
+    padding: 0 20px;
+    line-height: 40px;
+    text-decoration: none;
+}
+.nav-link:hover, .footer a:hover,.section-item a:hover {
+    text-decoration: underline;
+    transition: 0.3s;
+}
+.main-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.section{
+    flex: 1 1 48%;
+    padding: 20px;
+    border-bottom: 1px solid #7D6D59;
+}
+@media (max-width:768px){
+    .section{
+        width: 100%;
+    }
+}
+.section-title{
+    color: #55493B;
+    padding-bottom: 10px;
+}
+.section-profile-orientation{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.section-profile-logo{
+    border-radius: 50%;
+}
+.section-profile-title{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    color: #151738;
+}
+.section-item{
+    margin-bottom: 10px;
+}
+.contacts-item{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.svg-icons{
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+    background-size: cover;
+}
+.contacts-svg{
+    background-image: url(./svg/gmail-icon.svg);
+}
+.github-svg{
+    background-image: url(./svg/github-icon.svg);
+}
+.discord-svg{
+    background-image: url(./svg/discord-icon.svg);
+}
+.section-item a{
+    color: #7D6D59;
+    text-decoration: none;
+    transition: color 0.5s;
+}
+.section-item a:hover, footer a:hover, nav-link:hover{
+    transition: 0.5s;
+    color: #2C2113;
+}
+footer, footer a{
+    color: #55493B;
+    text-decoration: none;
+}
+.footer-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer-gitlink{
+    display: flex;
+    flex-direction: row;
+}
+.rss-link{
+    width: 121px;
+    height: 45px;
+    background-image: url(./svg/rsschool-logo.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: 10px;
+}
+
