@@ -4,7 +4,7 @@
 **Discord:** *kseniimarkova2419*
 
 ## About me:
-My name is Kseniia. My goal in RSSchool is to learn the basic skills of working with web layout to replenish my resume.
+My goal at RSSchool is to learn basic web development skills to improve my resume and identify a skills gap. In the future, I want to create real projects by React and Vue3. For this reason I need good base of HTML, CSS and JavaScript.
 
 ## Skills: 
 * HTML
